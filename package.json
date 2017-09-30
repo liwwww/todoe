@@ -21,6 +21,7 @@
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
     "mysql": "^2.14.1",
-    "nodemon": "^1.12.1"
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.9.0"
   }
 }
