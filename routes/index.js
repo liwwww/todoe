@@ -31,6 +31,13 @@ router.get('/:id', function (req, res, next) {
   
 });
 
+router.get('/index/:id', function(req, res, next) {
+
+  user.ifindById(req.params.id).then (function (user) {
+    res.json(user);
+  });
+});
+
 router.get('/index',function (req, res, next) {
   
 })
