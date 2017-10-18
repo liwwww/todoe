@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 // 导入MySQL模块
-var mysql = require('mysql');
+var mysql = require('mysql2');
 var dbConfig = require('../conf/db');
 var userSQL = require('../dao/userMapping');
 // 使用DBConfig.js的配置信息创建一个MySQL连接池

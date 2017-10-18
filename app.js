@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 var app = express();
 
